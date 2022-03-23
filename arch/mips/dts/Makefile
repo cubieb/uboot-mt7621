@@ -18,6 +18,7 @@ dtb-$(CONFIG_BOARD_SAGEM_FAST1704) += sagem,f@st1704.dtb
 dtb-$(CONFIG_BOARD_TPLINK_WDR4300) += tplink_wdr4300.dtb
 dtb-$(CONFIG_BOARD_MT7621_RFB) += mt7621_nor_rfb.dtb
 dtb-$(CONFIG_BOARD_MT7621_NAND_RFB) += mt7621_nand_rfb.dtb
+dtb-$(CONFIG_BOARD_MT7621_MERCURY_MAC2600R) += mt7621_mercury_mac2600r.dtb
 dtb-$(CONFIG_BOARD_MT7621_ZTE_E8820-V2) += mt7621_zte_e8820-v2.dtb
 
 targets += $(dtb-y)
